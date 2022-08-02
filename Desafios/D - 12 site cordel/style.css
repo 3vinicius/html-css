@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+@keyframes identifier {
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-family: 'Passion One', cursive;
+    font-size: 9vw;
+}
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 20vw;
+}
+#texto-header{
+    margin: 0px;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+a:hover{
+    background-color: #053406;
+    padding: 1px;
+    border-radius: 3px;
+}
+
+section{
+    font-family: 'Sriracha', cursive;
+    font-size: 3vw;
+}
+.centro{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100vw;
+
+}
+
+
+p{
+    margin-top: 10vw;
+    margin-left: 40px;
+    line-height: 5vw;
+}
+
+#flor{
+    margin: 0px;
+    background:url(imagens/background001.jpg) right bottom no-repeat fixed;
+    background-size: cover;
+    height: 60vw;
+    width: 100vw;
+    position: relative;
+}
+
+.caixa-texto1{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    background-color: rgba(0, 0, 0, 0.600);
+    margin-left: 40px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.texto-caixa1{
+    color: #ffffff;
+   margin: 0px;
+}
+#folha{
+    background: black url(imagens/background002.jpg) right bottom no-repeat fixed;
+    background-size: cover;
+    height: 60vw;
+    width: 100vw;
+    position: relative;
+}
+.caixa-texto2{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    background-color: rgba(0, 0, 0, 0.600);
+    margin-left: 40px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+#texto-caixa2{
+    color: #ffffff;
+    margin: 0px;
+}
+#flor, #folha{
+    margin-top: 10vw;
+}
+
+footer{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+}
