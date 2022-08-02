@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#dentro{
+
+    background-color: blue;
+    height: 500px;
+    width: 400px;
+    position: relative;
+}
+
+#dentro > #fora{
+    position: absolute;
+    background-color: yellow;
+    height: 30%;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
