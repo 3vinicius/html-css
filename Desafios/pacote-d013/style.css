@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100wv;
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-image: url(imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#icones{
+    position: absolute;
+    
+    height: 600px;
+    width: 50px;
+    left: 100%;
+    transform: translate(-100%);
+}
+
+#home{
+    background-image: url(imagens/logo-home.jpg);
+    height: 40px;
+    width: 39px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+#youtube{
+    
+    background-image: url(imagens/logo-youtube.jpg);
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+}
+
+#git{
+    
+    background-image: url(imagens/logo-github.jpg);
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+}
+
+#ins{
+    
+    background-image: url(imagens/logo-instagram.jpg);
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+}
+
+#twi{
+    
+    background-image: url(imagens/logo-twitter.jpg);
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+}
+
+#fac{
+    
+    background-image: url(imagens/logo-facebook.jpg);
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+}
+
+div{
+    margin-bottom: 20px;
+}
+    
+    
+
+
+iframe{
+    position: absolute;
+    background-color: aqua;
+    height: 225px;
+    width: 125px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+
+}
