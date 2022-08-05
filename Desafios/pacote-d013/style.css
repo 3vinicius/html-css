@@ -126,3 +126,15 @@ iframe {
     top: 10%;
     scale: 0.32;
 }
+
+.botao{
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px black;
+}
+
+.botao:hover{
+    border: 2px solid rgba(212, 202, 202, 0.653);
+    box-shadow: 4px 4px 10px ;
+    transform: translate(-10px,-0px);
+    transition: transform .3s, border 0.2s;
+}
