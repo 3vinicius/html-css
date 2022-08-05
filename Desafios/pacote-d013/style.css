@@ -105,13 +105,22 @@ div{
     
 
 
-iframe{
+iframe {
     position: absolute;
-    background-color: aqua;
-    height: 225px;
-    width: 125px;
+    height: 768px;
+    width: 432px;
     transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
+    left: 26.8%;
+    top: 10%;
+    scale: 0.32;
+}
 
+#yotube{
+    position: absolute;
+    height: 768px;
+    width: 432px;
+    transform: translate(-50%, -50%);
+    left: 26.8%;
+    top: 10%;
+    scale: 0.32;
 }
