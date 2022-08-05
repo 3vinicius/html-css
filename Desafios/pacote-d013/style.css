@@ -102,19 +102,21 @@ div{
     margin-bottom: 20px;
 }
     
-    
+::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
 
 
 iframe {
-    position: absolute;
-    height: 768px;
-    width: 469px;
+    position: fixed;
+    height: 228px;
+    width: 129px;
     transform: translate(-50%, -50%);
-    left: 26.8%;
-    top: 10%;
-    scale: 0.32;
+    left: 50%;
+    top: 50%;
+    scale: 1;
 }
-
 #yotube{
     position: absolute;
     height: 768px;
