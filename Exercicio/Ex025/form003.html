@@ -12,7 +12,12 @@
 
     <form action="cadastro.php">
         <p>
-        <label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
+        <label for="inome">Nome:</label> <input type="text" name="nome" id="inome" minlength="5" required size="10px" placeholder="Nome do Aluno"></p>
+
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="media" id="imedia" required size="10px">
+        </p>
 
     </form>
 </body>
