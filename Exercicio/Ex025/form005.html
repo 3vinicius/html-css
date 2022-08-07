@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        legend{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+
+
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <fieldset>
+            <legend>Esportes</legend>
+
+            <p>
+                <input type="checkbox" name="futebol" id="ifutebol"><label for="ifutebol">Futebol</label>
+                <input type="checkbox" name="ciclismo" id="iciclismo"><label for="iciclismo">Ciclismo</label>
+                <input type="checkbox" name="musculação" id="imusculação"><label for="imusculação">Musculação</label>
+                <input type="checkbox" name="atletismo" id="iatletismo"><label for="iatletismo">Atletismo</label>
+                <input type="checkbox" name="basquete" id="ibasquete"><label for="ibasquete">Basquete</label>
+            </p>
+
+            <p>
+                <input type="checkbox" name="corrida" id="icorrida"><label for="icorrida">Corrida</label>
+                <input type="checkbox" name="natacao" id="inatacao"><label for="inatacao">Natação</label>
+                <input type="checkbox" name="volei" id="ivolei"><label for="ivolei">Volei</label>
+                <input type="checkbox" name="box" id="ibox"><label for="ibox">Box</label>
+            </p>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="imasculino"><label for="imasculino">Masculino</label><br>
+
+            <input type="radio" name="sexo" id="ifeminino"><label for="ifeminino">Feminino</label>
+        </fieldset>
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

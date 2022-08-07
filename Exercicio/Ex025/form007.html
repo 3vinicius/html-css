@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="" method="post">
+
+        <p>
+        <label for="iselect">Região: </label>
+        <select name="selecione" id="iselect" value="Rio de janeiro">
+            <optgroup label="Sudeste">
+                <option value="RJ">Rio de Janeiro </option>
+                <option value="SP">São Paulo</option>
+                <option value="SC" >Santa Catarina</option>
+            </optgroup>
+            <option value="none" selected>---ESCOLHA---</option>
+
+            <optgroup label="Nordeste">
+                <option value="AL">Alagoas</option>
+                <option value="BH">Bahia</option>
+                <option value="RC">Recife</option>
+            </optgroup>
+        </select>
+        
+        </p>
+
+
+        <p>
+            <label for="iprofissões">Profissões:</label>
+            <input type="text" name="profissões" id="iprofissões" list="ilista1">
+
+            <datalist id="ilista1">
+                <option value="ENF">Enfermeiro</option>
+                <option value="PR">Professor</option>
+            </datalist>
+
+            <p>Escreva sua mensagem: <br><textarea name="" id="" cols="30" rows="10"></textarea></p>
+        </p>
+
+        
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+
+    </form>
+</body>
+</html>

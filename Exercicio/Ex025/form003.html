@@ -10,15 +10,41 @@
     <h1>Teste de Formulário</h1>
 
 
-    <form action="cadastro.php">
+    <form action="cadastro.php" method="get">
         <p>
-        <label for="inome">Nome:</label> <input type="text" name="nome" id="inome" minlength="5" required size="10px" placeholder="Nome do Aluno"></p>
+        <label for="inome">Nome:</label> <input type="text" name="nome" id="inome" minlength="5" required size="10 px" placeholder="Nome do Aluno"></p>
 
         <p>
             <label for="imedia">Média</label>
-            <input type="number" name="media" id="imedia" required size="10px">
+            <input type="number" name="media" min="0" max="10" placeholder="0 - 10" id="imedia" step="0.5" required>
         </p>
 
+        <p>
+            <label for="iperiodo">Período</label>
+            <input type="date" name="periodo" id="iperiodo" value="2022-07-08">
+        </p>
+
+        <p>
+            <label for="">Semana</label>
+            <input type="week" name="" id="">
+        </p>
+
+        <p>
+            <label for="">Mês</label>
+            <input type="month" name="" id="">
+        </p>
+
+        <p>
+            <label for="itermo">Termo de compromisso:</label>
+            <input type="checkbox" name="termo" id="itermo">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+        
     </form>
 </body>
 </html>
