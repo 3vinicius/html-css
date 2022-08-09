@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de position</title>
+    <style>
+        h1{
+            background-color: lightslategray;
+            
+        }
+        div{
+            width: 100px;
+            height: 100px;
+        }
+        .absolute{
+            background-color: black;
+        }
+        .fixed{
+            position: fixed;
+            background-color: aquamarine;
+            margin: 0px;
+            bottom: 5px;
+            right: 5px;
+        }
+        .absolute2{
+            position: absolute;
+            background-color: blue;
+            
+        }
+        .conteiner{
+            width: 400px;
+            height: 400px;
+        }
+        .conteiner > .absolute2{
+            top: 0px;
+        }
+
+        .relative{
+            position:relative;
+            background-color: darkgray;
+            top:100px;
+        }
+        .sticky{
+            position: sticky;
+            top: 10px;
+            background-color: darksalmon;
+        }
+        .absolute3{
+            height: 1000px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>fixed:</h1>
+    <div class="fixed "></div>
+
+
+    <h1>Absolute:</h1>
+    <div class="conteiner">
+        
+        <div class="sticky"></div>
+        <div class="absolute2"></div>
+        
+    </div>
+
+
+    <h1>Relative:</h1>
+    
+        <div class="relative"></div>
+        <div class="absolute"></div>
+   
+
+    <h1>stico</h1>
+    <div class="sticky"></div>
+    <div class="absolute3"></div>
+</body>
+</html>
