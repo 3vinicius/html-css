@@ -7,30 +7,29 @@
     <title>cirando cartões</title>
 
     <style>
+        /* Primeira forma de alinhamento de box */
         .cs{
-            display:inline-block;
-            background-color:rebeccapurple;
+            float: left;
             width: 100px;
             height: 100px;
-            border: 1px 1px solid black;
+            margin-right: 10px;
+            border: 1px solid black;
+            margin-bottom: 10px;
+            
         }
+        /* Primeira forma de alinhamento Vertical */
         .text{
-            display: block;
             text-align: center;
             line-height: 100px;
-            background-color: chocolate;
-        }
-        .c4{
-            display: block;
-            position: relative;
-            float: right;
-            left: -212px;
             
         }
 
-        .text2{
-            text-align: center;
-            background-color: chocolate;
+        .dv{
+          clear: both;
+          margin-top: 10px;  
+          width: 100px;
+          height: 100px;
+          border: 1px solid black;
         }
     </style>
 
@@ -52,7 +51,26 @@
     </div>
 
     <div class="cs c4">
-        <div class="text2">card4</div>
+        <div class="text">card4</div>
+    </div>
+
+
+
+
+    <div class="dv">
+        <div class="tex">card1</div>
+    </div>
+    
+    <div class="dv">
+        <div class="tex">card2</div>
+    </div>
+
+    <div class="dv">
+        <div class="tex">card3</div>
+    </div>
+
+    <div class="dv">
+        <div class="tex">card4</div>
     </div>
 </body>
 </html>
