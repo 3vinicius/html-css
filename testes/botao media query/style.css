@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    color: white;
+    width: 400px;
+    height: 40px;
+    background-color: black;
+    margin: auto;
+    padding-top: 20px;
+}
+div{
+    float: left;
+    margin-left: 10px; ;    
+
+}
+ul{
+    float: right;
+}
+li{
+    float: left;
+    list-style: none;
+    background-color: yellow;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:700px){
+    header{
+
+    }
+    div{
+
+    }
+    ul{
+
+    }
+
+
+}
