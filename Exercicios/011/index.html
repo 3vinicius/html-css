@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+
+    <p>Aqui faremos um texte de imagem dinâmica</p>
+
+    <picture>
+        <source media="(min-width:  1080px)" srcset="img/foto-g.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="img/foto-m.png" type="image/png">
+
+
+        <img src="img/foto-p.png" alt="foto pequena" srcset="img/foto-p.png">
+    </picture>
+
+    <br>
+    <br>
+    <h1>Adicionando um audio</h1>
+
+    <p>Logo abaixo você vera um audio sendo possível reproduzilo</p>
+    <audio src="audio/aud.mp3" controls preload="metadata"> 
+
+    </audio>
+
+
+</body>
+</html>

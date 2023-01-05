@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+        *{
+            font: 16px verdana;
+        }
+
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover{
+            cursor: pointer;
+            text-decoration: underline;
+            color: red;
+
+        }
+
+        a::after{
+            content: '[LINK]';
+            font-size: 10px;
+            color: rgba(0, 128, 0, 0.42);
+        }
+
+        .especial::before{
+            content: "[esp]  ";
+            color: rgba(255, 0, 0, 0.429);
+        }
+
+        a:active{
+            background-color: rgba(255, 255, 0, 0.377);
+        }
+        
+    </style>
+
+<body>
+    <li><a href="www.cursoemvideo.com" target="_blank">curso em video</a></li>
+    <li> <a target="_blank" href="www.youtube.com">youtube</a></li>
+    <li class="especial"><a href="www.facebook.com" target="_blank">facebook</a></li>
+</body>
+</html>

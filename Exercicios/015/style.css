@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body{
+    font: 16px Arial;
+}
+
+.title{
+    color: green;
+}
+
+
+.topico{
+    text-align: right;
+    color: rgba(0, 128, 0, 0.79);
+}
+
+#title-principal{
+    background-color: green;
+    color: wheat;
+}

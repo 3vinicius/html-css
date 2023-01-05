@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+            display: inline-block;
+            border: 1px solid black;
+            height: 150px;
+            width: 150px;
+            margin-top: 10px;
+            background-color: darkgray;
+            text-align: center;
+            
+        }
+        div>p{
+            display: none;
+        }
+
+        div:hover >p{
+            display: inline-block;
+            background-color: red;
+            }
+
+        div:hover{
+            background-color: yellow;
+        }
+
+        #d2:hover{
+            cursor: pointer;
+            background-color:rebeccapurple;
+
+        }
+
+        #d1{
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div id="d1">1
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, autem molestiae ipsa mollitia cum officiis reprehenderit perspiciatis impedit nam eos blanditiis error recusandae molestias ratione provident accusamus iste. Minus, laboriosam.</p>
+    </div>
+    <div id="d2">2</div>
+    <div>3</div>
+</body>
+</html>

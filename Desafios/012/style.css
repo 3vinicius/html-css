@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cav;
+}
+
+
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+    color: aliceblue; 
+    margin-bottom: 20px;
+}
+
+header > h1,h6{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h6{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+main{
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    text-align: left;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Sriracha', cursive;
+    margin-bottom: 40px;
+    margin-left: 30px ;
+}
+
+
+
+main > .img2,.img1{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    left: 0px;
+    margin-bottom: 10px;
+    
+
+}
+
+.textimg{
+    position: relative;
+    background-color: rgba(127, 126, 126, 0.365);
+    width: 280px;
+    left: 20px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.textimg > p{
+    margin-left: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(103, 102, 102, 0.377);
+}
+
+.img1{
+    background: url(imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+.img2{
+    background: url(imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+section.text{
+    display: block;
+    
+}
+
+footer{
+    text-align: center;
+    background:rgb(0, 0, 0);
+    padding-bottom: 5px;
+}
+
+footer > p {
+    font-size: 16px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0px;
+
+}
